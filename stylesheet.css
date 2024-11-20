@@ -1,0 +1,86 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(8, 8, 8);
+  border-style: solid;
+  border: 1em solid rgb(66, 59, 59);
+  border-width: 5px;
+  color: white;
+}
+.header-bild {
+  border-radius: 800px;
+  width: 200px;
+  height: 200px;
+}
+.header-menu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+button {
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+body {
+  margin: 0;
+  background-color: rgb(96, 157, 172);
+}
+.undertitle {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  margin: 3rem;
+  padding: 3rem;
+  border: solid rgb(236, 95, 95) 1rem;
+}
+.riddles {
+  background-color: rgb(255, 255, 255);
+  border: 0.25rem solid rgb(236, 95, 95);
+  padding: 1rem;
+  margin: 1rem;
+}
+.question {
+  font-size: large;
+}
+.answer {
+  margin: 1rem;
+  padding: 1rem;
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  background-color: rgb(236, 95, 95);
+  border: 0.25rem solid rgb(236, 95, 95);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.short-stories {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  font-size: large;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin-top: 1rem;
+  padding: 1rem;
+}
+.links img {
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  padding: 2rem;
+}
